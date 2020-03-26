@@ -9,7 +9,7 @@ public class ArrayListDemo {
 		    ArrayList<String> Bike = new ArrayList<String>();
 		    for(int i=0;i<5;i++)
 		    Bike.add(sc.next());
-		    System.out.println("The 5 Cars are");
+		    System.out.println("The 5 Bikes are");
 		    System.out.println(Bike);
 }
 }
