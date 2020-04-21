@@ -1,0 +1,14 @@
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+ <hibernate-mapping>  
+ <class name="com.nttdata.Model.Product">
+ <id name="Pid"></id>
+ <property name="ProductName"></property>
+ <property name="Description"></property>
+ <property name="price"></property>
+ 
+  <many-to-one name="category" class="com.nttdata.Model.Category" column="Cid" cascade="all"></many-to-one>
+ </class>
+ </hibernate-mapping>
